@@ -1,6 +1,6 @@
 # Домашнє завдання №15. Tailwind CSS: від нуля до майстра веб-дизайну
 
-**[Результат домашнього завдання](https://andrusi4ka.github.io/Fullstack-home-work-14/)**<br><br>
+**[Результат домашнього завдання](https://andrusi4ka.github.io/Fullstack-home-work-15/)**<br><br>
 
 **Основні завдання:**
 
