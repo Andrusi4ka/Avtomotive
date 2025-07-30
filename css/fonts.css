@@ -1,0 +1,24 @@
+@font-face{
+	font-family: Quite Chocolatey;
+	src: url('../fonts/Quite Chocolatey.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family: Montserrat-Regular;
+	src: url('../fonts/Montserrat-Regular.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family: couture-bld;
+	src: url('../fonts/couture-bld.otf');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family: PT-SERIF;
+	src: url('../fonts/PT-SERIF.ttf');
+	font-style: normal;
+	font-weight: normal;
+}

@@ -1,0 +1,15 @@
+@use 'variables' as *;
+
+@mixin btn_red {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: $main-red;
+    padding: 20px 70px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: $main-red-hover;
+    }
+}

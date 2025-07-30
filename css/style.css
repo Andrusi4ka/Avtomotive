@@ -1,0 +1,255 @@
+@import url(../css/fonts.css);
+header {
+  background-image: url(../images/avtomotive_01.jpg);
+  background-size: cover;
+  padding: 40px 0 70px;
+}
+header nav {
+  padding-bottom: 70px !important;
+}
+header nav .logo {
+  font-family: Quite Chocolatey;
+  color: #ffffff;
+  font-size: 88px;
+}
+@media (max-width: 768px) {
+  header nav .logo {
+    font-size: 60px;
+  }
+}
+header nav .navbar-toggler span i {
+  color: #ffffff;
+  font-size: 40px;
+}
+header nav .menu {
+  font-family: Montserrat-Regular;
+}
+header nav .menu li a {
+  padding: 10px 15px !important;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+header nav .menu li a:hover {
+  background-color: #130e27;
+  color: #ffffff;
+}
+header nav .menu li .active {
+  background-color: #130e27;
+  color: #ffffff !important;
+}
+header .sell-car .sell-slogan {
+  font-family: Montserrat-Regular;
+  font-size: 90px;
+  color: #130e27;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  line-height: 100px;
+}
+@media (max-width: 768px) {
+  header .sell-car .sell-slogan {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+header .sell-car .sell-slogan span {
+  color: #ffffff;
+}
+header .sell-car .sell-info {
+  color: #ffffff;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+header .sell-car .sell-request .btn-request {
+  background-color: #ffffff;
+  display: block;
+  margin-left: auto;
+  text-transform: uppercase;
+  font-family: Montserrat-Regular;
+  padding: 30px 100px;
+  font-size: 22px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 50px black;
+}
+@media (max-width: 1024px) {
+  header .sell-car .sell-request .btn-request {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
+  header .sell-car .sell-request .btn-request {
+    font-size: 16px;
+    padding: 20px 50px;
+  }
+}
+header .sell-car .sell-request .modal {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 13px 8px rgba(0, 0, 0, 0.33);
+}
+header .sell-car .sell-request .modal .modal-header {
+  border: none;
+  text-transform: uppercase;
+  justify-content: center;
+}
+header .sell-car .sell-request .modal form {
+  gap: 15px;
+}
+header .sell-car .sell-request .modal form input {
+  padding: 20px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eeeeee;
+}
+header .sell-car .sell-request .modal form input[type=checkbox] {
+  margin-right: 10px;
+}
+header .sell-car .sell-request .modal .btn-send-request {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #c62314;
+  padding: 20px 70px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+header .sell-car .sell-request .modal .btn-send-request:hover {
+  background-color: #9f1c10;
+}
+
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-size: 50px !important;
+  text-align: center;
+  color: #130e27;
+  text-transform: uppercase;
+  font-weight: bold !important;
+  padding-bottom: 70px;
+}
+@media (max-width: 768px) {
+  h3 {
+    font-size: 40px;
+  }
+}
+h3 span {
+  color: #c62314;
+}
+
+main .services .services-items .grid {
+  text-align: center;
+  font-size: 20px;
+}
+main .services .services-items .grid img {
+  height: 150px;
+  padding-bottom: 20px;
+}
+main .story {
+  background-color: #130e27;
+  color: #ffffff;
+}
+main .story button {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #c62314;
+  padding: 20px 70px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+main .story button:hover {
+  background-color: #9f1c10;
+}
+@media (max-width: 768px) {
+  main .story button {
+    padding: 15px 40px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+main .pricing {
+  background-color: #efefef;
+}
+main .pricing .pricing-grid .pricing-item {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 50px;
+  text-align: center;
+  flex: 1;
+  border: 1px solid transparent;
+}
+main .pricing .pricing-grid .pricing-item:hover {
+  border: 1px solid gray;
+}
+main .pricing .pricing-grid .pricing-item .pricing-price {
+  color: #c62314;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+main .pricing .pricing-grid .pricing-item button {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #c62314;
+  padding: 20px 70px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: #130e27;
+}
+main .pricing .pricing-grid .pricing-item button:hover {
+  background-color: #9f1c10;
+}
+main .gallery .reviews .review-item {
+  position: relative;
+}
+main .gallery .reviews .review-item .gray {
+  background-color: #efefef;
+}
+main .gallery .reviews .review-item .review-detail {
+  width: 87%;
+  padding: 30px 13% 30px 30px;
+}
+main .gallery .reviews .review-item .review-img {
+  width: 24%;
+  position: absolute;
+  right: -12%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+main .gallery .reviews .review-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #130e27;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer .footer-info p {
+  margin: 0;
+}
+footer .footer-info p a {
+  color: #c62314;
+}
+footer .footer-info h1 {
+  font-size: 60px;
+}
+footer .footer-info h1 a {
+  font-family: Quite Chocolatey;
+  color: #c62314;
+}/*# sourceMappingURL=style.css.map */

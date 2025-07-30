@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>avtomotive</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<script src="https://cdn.tailwindcss.com">
+	</script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<div class="container mx-auto px-3">
+
+			<nav class="lg:flex justify-between items-center">
+				<div class="flex justify-between items-center">
+					<a class="logo" href="#">automotive</a>
+					<button class="navbar-toggler lg:hidden" id="menu-toggle" type="button"><span><i class="fa-solid fa-bars"></i></span></button>
+				</div>
+				<div id="mobile-menu" class="hidden lg:flex">
+					<ul class="menu flex flex-col lg:flex-row">
+						<li>
+							<a class="block active" aria-current="page" href="#">home</a>
+						</li>
+						<li>
+							<a class="block" href="#">about</a>
+						</li>
+						<li>
+							<a class="block" href="#">services</a>
+						</li>
+						<li>
+							<a class="block" href="#">gallery</a>
+						</li>
+						<li>
+							<a class="block" href="#">contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<section class="grid lg:grid-cols-2 sell-car">
+				<div class="col-md-12 col-lg-6">
+					<p class="sell-slogan">sell your<br><span>car now</span></p>
+					<p class="sell-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda accusamus dignissimos delectus quasi ipsam vel at ratione neque magnam, odit?</p>
+				</div>
+				<div class="sell-request col-md-12 col-lg-6">
+					<button id="btn-request" class="btn-request" type="button">request a quote</button>
+
+					<div id="modal-request" class="modal hidden">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h1 class="modal-title">request a quote</h1>
+								</div>
+								<div class="modal-body">
+									<form class="flex flex-col">
+										<input type="text" placeholder="Full Name">
+										<input type="text" placeholder="Email Adress">
+										<input type="text" placeholder="Phone Namber">
+										<input type="text" placeholder="Country">
+										<div class="accept-request"><input type="checkbox" class="accept"><span>I accept the terms & conditions</span></div>
+										<button class="btn-send-request">send</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</header>
+	<main>
+		<section class="services">
+			<div class="container mx-auto px-3">
+				<h3><span>our </span>services</h3>
+				<div class="services-items">
+					<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+						<div class="flex flex-col items-center">
+							<img src="images/service1_03.png" alt="#">
+							<p class="text-service">Making your trip beautiful and easier</p>
+						</div>
+						<div class="flex flex-col items-center">
+							<img src="images/service2_03.png" alt="#">
+							<p class="text-service">Tools to help you succeed tommorow</p>
+						</div>
+						<div class="flex flex-col items-center">
+							<img src="images/service3_03.png" alt="#">
+							<p class="text-service">Ideas that will blow you out the blue.</p>
+						</div>
+						<div class="flex flex-col items-center">
+							<img src="images/service4_03.png" alt="#">
+							<p class="text-service">Navigate your path to beautiful world.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<section class="story">
+			<div class="container mx-auto px-3">
+				<div class="flex flex-col lg:flex-row lg:justify-between story-item">
+					<p class="w-2/3 py-5 md:0">We are in business for over 6 years providing amazing services to client and people love them to the core. View our story to know more.</p>
+					<div class="flex lg:self-center lg:justify-end"><button class="">our story</button></div>
+				</div>
+			</div>
+		</section>
+		<section class="pricing">
+			<div class="container mx-auto px-3">
+				<h3>pricing</h3>
+				<div class="pricing-grid flex justify-between flex-wrap gap-8">
+					<div class="pricing-item">
+						<p class="pricing-name">Starter</p>
+						<p class="pricing-price">free</p>
+						<ul class="pricing-info py-3">
+							<li>Free Service</li>
+							<li>Multiple Account</li>
+							<li>Management No</li>
+							<li>--</li>
+							<li>--</li>
+						</ul>
+						<button>try</button>
+					</div>
+					<div class="pricing-item">
+						<p class="pricing-name">Business</p>
+						<p class="pricing-price">$97</p>
+						<ul class="pricing-info py-3">
+							<li>Free Service</li>
+							<li>Multiple Account</li>
+							<li>Management No</li>
+							<li>Unlimited Data</li>
+							<li>--</li>
+						</ul>
+						<button>sign up</button>
+					</div>
+					<div class="pricing-item">
+						<p class="pricing-name">Professional</p>
+						<p class="pricing-price">$297</p>
+						<ul class="pricing-info py-3">
+							<li>Free Service</li>
+							<li>Multiple Account</li>
+							<li>Management No</li>
+							<li>Unlimited Data</li>
+							<li>Whatever You Need</li>
+						</ul>
+						<button>sign up</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="gallery">
+			<div class="container mx-auto px-3">
+				<h3>testimonial <span>gallery</span></h3>
+				<div class="reviews">
+					<div class="grid md:grid-cols-2 gap-8">
+
+
+						<div class="review-item">
+							<div class="review-detail bg-gray-200 md:bg-white">
+								<p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit unde quae cum assumenda sint eaque ad, natus libero. Dolorum, exercitationem.</p>
+								<p class="review-name">Emma Thompson</p>
+							</div>
+							<div class="review-img"><img src="images/person1.jpg" alt="#"></div>
+						</div>
+
+
+
+						<div class="review-item">
+							<div class="review-detail bg-gray-200">
+								<p class="review-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum enim reiciendis, non ducimus voluptatem ut consequuntur asperiores accusantium temporibus soluta!.</p>
+								<p class="review-name">Daniel Morgan</p>
+							</div>
+							<div class="review-img"><img src="images/person2.jpg" alt="#"></div>
+						</div>
+
+
+
+						<div class="review-item">
+							<div class="review-detail bg-gray-200">
+								<p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti labore atque quis cumque omnis ut officia dolorem itaque nostrum ab.</p>
+								<p class="review-name">James Bennett</p>
+							</div>
+							<div class="review-img"><img src="images/person3.jpg" alt="#"></div>
+						</div>
+
+
+
+						<div class="review-item">
+							<div class="review-detail bg-gray-200 md:bg-white">
+								<p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo illum aperiam autem deserunt soluta maxime distinctio? Exercitationem, tempore deserunt.</p>
+								<p class="review-name">Olivia Parker</p>
+							</div>
+							<div class="review-img"><img src="images/person4.jpg" alt="#"></div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="container mx-auto px-3">
+			<div class="footer-info flex justify-between items-center flex-wrap gap-5">
+				<p>All Rights Reserved | 2025 | Designed with love by <a href="#"><span>DesignCoon</span></a></p>
+				<h1><a href="">automotive</a></h1>
+			</div>
+		</div>
+	</footer>
+
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script> -->
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
