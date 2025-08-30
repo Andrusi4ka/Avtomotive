@@ -1,6 +1,6 @@
 # Tailwind CSS #
 
-**[Result](https://andrusi4ka.github.io/Tailwind-CSS/)**
+**[Result](https://andrusi4ka.github.io/Avtomotive/)**
 
 **Main tasks:**
 
